@@ -2,13 +2,17 @@
   "name": "w01e02-enter-the-world-of-typescript",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "concurrently npm:watch:*",
+    "build": "parcel build index.html",
+    "watch:parcel": "parcel watch index.html --no-hmr",
+    "watch:liveserver": "live-server --port=8000 ./dist/"
   },
   "dependencies": {
     "typescript": "^4.8.4"
   },
   "devDependencies": {
+    "concurrently": "^7.4.0",
+    "live-server": "^1.2.2",
     "parcel-bundler": "^1.3.1"
   }
 }
