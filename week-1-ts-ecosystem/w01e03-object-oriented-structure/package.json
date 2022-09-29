@@ -1,5 +1,20 @@
 {
   "name": "w01e03-object-oriented-structure",
   "version": "1.0.0",
-  "scripts": {}
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "nodemon src/main.ts",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": "> Przypomnienie sobie i zastosowanie klas w TypeScript.  \r > Różnice pomiędzy klasą a instancją klasy. Zależności pomiędzy klasami.",
+  "main": "src/main.ts",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.4"
+  },
+  "author": "",
+  "license": "ISC"
 }

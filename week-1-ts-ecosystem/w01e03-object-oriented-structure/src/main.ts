@@ -1,3 +1,6 @@
+import { testCart }  from "./cartTest";
+import { ProductType } from "../enums/productType";
+
 /**
  * To tutaj mamy "START" programu.
  *
@@ -9,3 +12,6 @@
  * Przygotuj koszyki dla każdego rodzaju produktów.
  * - po prostu: wykaż, że przygotowana logika i modele danych — działają :)
  * */
+testCart(4, ProductType.BuyNow, 10, 5)
+testCart(3, ProductType.Auction, 10, 5)
+testCart(5, ProductType.ForFree, 10, 5)
