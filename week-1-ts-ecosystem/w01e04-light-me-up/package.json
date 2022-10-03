@@ -1,5 +1,18 @@
 {
   "name": "w01e04-light-me-up",
   "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "description": "> Zrozumienie zależności pomiędzy danymi w jednej a kilku instancjach klasy w kontekście korzystania z tych danych ich przez inne obiekty.  \r > W skrócie — okrojone: _Inversion of Control_ + _Dependency Injection_ w praktyce.  \r > Dodatkowo: `async`hroniczne rzeczy w _JS_.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "task1": "ts-node src/task_1.ts",
+    "task2": "ts-node src/task_2.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

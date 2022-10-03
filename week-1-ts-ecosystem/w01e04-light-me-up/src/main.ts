@@ -8,14 +8,4 @@
  * Dodatkowo — rzucać błąd, jeśli zapas mocy się wyczerpie.
  * */
 
-class PowerSource {
-  private energySupply = 100
 
-  consume(energy) {
-    this.energySupply -= energy
-  }
-}
-
-class LightBulb {
-  protected readonly powerConsumption = 20
-}
